@@ -1,0 +1,448 @@
+/*body {
+    background-image: url("wall.jpg");
+}
+*/
+header {
+	margin-top: -80px;
+    margin-bottom: -30px;
+    margin-right: -10px;
+    margin-left: -10px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: -10px;
+    /*border-style: dashed;
+    background-color:rgb();
+*/
+    font-size: 40px;
+    font-family: "Raleway","Times New Roman","Phosphate", serif;
+    /*color:rgb(87,224,206);*/
+    color:#4CAF50;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b8b9ba;
+    top: 0;
+    
+    width: 100%;
+    font-size: 22px;
+    font-family:"Raleway","Rockwell","Times New Roman", serif;
+    
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+footer{
+	position: fixed;
+    left: 0;
+    bottom:0;
+
+    width: 100%;
+    background-color:#b8b9ba ;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+
+input[type=text],input[type=radio],input[type=password],input[type=email] ,select {
+    padding: 12px 20px;
+    margin: 8px 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-size: 22px;
+
+    background-color: #4CAF50;
+    width: 20%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#login   ,  #forget,#signup {
+    background-color: #4CAF50;
+    width: 20%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+form {
+
+	font-size: 16px;
+    font-family: "Rockwell","Times New Roman", serif;
+    
+    border-radius: 5px;
+/*    background-color: #f2f2f2;*/
+    padding: 20px;
+}
+
+p{
+	padding: 0px 20px;
+    
+	font-size: 20px;
+    font-family: "Raleway","Rockwell","Times New Roman", serif;
+    font-weight: bold;
+}
+
+
+
+#quote{
+	padding: 0px 20px;
+    
+	font-size: 20px;
+    font-family: "Zapfino","Times New Roman", serif;
+    font-weight: bold;
+}
+#front{
+	padding: 0px 20px;
+    
+	font-size: 16px;
+    font-family:"Times New Roman", serif;
+    font-weight: bold;
+}
+
+
+
+#welcome{
+	font-size: 46px;
+    font-family: "Rockwell","Times New Roman", serif;
+    
+}
+
+
+#h{
+	font-size: 30px;
+    font-family: "Rockwell","Times New Roman", serif;
+    
+    
+}
+
+
+a {
+    display: block;
+    color: #4CAF50;
+    text-align: left;
+    padding: 1px 100px;
+    text-decoration: none;
+}
+
+#dv{
+    font-size: 20px;
+    font-family: "Rockwell","Times New Roman", serif;
+    
+    border-radius:5px;
+    padding: 5px;
+    font-weight: bold
+}
+
+#dvv{
+    font-size: 17px;
+    font-family: "Rockwell","Times New Roman", serif;
+    
+    border-radius: 5px;
+    padding:11px;
+    font-weight: lighter;
+}
+...................................
+
+#paper {
+    color:#FFF;
+    font-size:20px;
+}
+
+#text {
+    width:500px;
+    overflow:hidden;
+    background-color:#FFF;
+    color:#222;
+    font-family:Courier, monospace;
+    font-weight:normal;
+    font-size:24px;
+    resize:none;
+    line-height:40px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:45px;
+    padding-bottom:34px;
+    background-image:url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+    background-repeat:repeat-y, repeat;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+    -webkit-box-shadow: 0px 2px 14px #000;
+    box-shadow: 0px 2px 14px #000;
+    border-top:1px solid #FFF;
+    border-bottom:1px solid #FFF;
+}
+#button {
+    cursor:pointer;
+    margin-top:20px;
+    float:left;
+    height:40px;
+    padding-left:24px;
+    padding-right:24px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    color:#FFF;
+    text-shadow: 0px +1px 0px #000000;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    border-top:1px solid #FFF;
+    -webkit-box-shadow: 0px 2px 14px #000;
+    box-shadow: 0px 2px 14px #000;
+    background-color: #62add6;
+    background-image:url(https://static.tumblr.com/maopbtg/ZHLmgtok7/button.png);
+    background-repeat:repeat-x;
+}
+#button:active {
+    zoom: 1;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+#button:focus {
+    zoom: 1;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+
+
+
+.......................................
+
+
+
+.tb
+{
+    display: table;
+    width: 100%;
+}
+.td
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input, button
+{
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+#cover
+{
+    top: 20%;
+    left: 0;
+    right: 0;
+    width:500px;
+    padding:0px;
+    margin:-33px auto 0 auto;
+    background-color: #b8b9ba;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #eaeaea, 0 0 0 20px #ffffffeb;
+}
+
+form
+{
+    height: 96px;
+}
+
+#search
+{
+    width: 90%;
+    height: 76px;
+    font-size:40px;
+    line-height: 1;
+}
+
+
+
+
+input[type="text"]::placeholder
+{
+    color: #000;
+}
+
+
+
+button
+{
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 96px;
+    cursor: pointer;
+}
+
+#s-circle
+{
+    position: relative;
+    top: -8px;
+    left: 0;
+    width: 43px;
+    height: 43px;
+    margin-top: 0;
+    border-width: 15px;
+    border: 15px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.5s ease all;
+}
+
+button span
+{
+    position: absolute;
+    top: 68px;
+    left: 43px;
+    display: block;
+    width: 45px;
+    height: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    transform: rotateZ(52deg);
+    transition: 0.5s ease all;
+}
+
+button span:before, button span:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotateZ(0);
+    transition: 0.5s ease all;
+}
+
+#s-cover:hover #s-circle
+{
+    top: -1px;
+    width: 67px;
+    height: 15px;
+    border-width: 0;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#s-cover:hover span
+{
+    top: 50%;
+    left: 56px;
+    width: 25px;
+    margin-top: -9px;
+    transform: rotateZ(0);
+}
+
+#s-cover:hover button span:before
+{
+    bottom: 11px;
+    transform: rotateZ(52deg);
+}
+
+#s-cover:hover button span:after
+{
+    bottom: -11px;
+    transform: rotateZ(-52deg);
+}
+#s-cover:hover button span:before, #s-cover:hover button span:after
+{
+    right: -6px;
+    width: 40px;
+    background-color: #fff;
+}
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 80px;
+    right: 60px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 50px;
+    font-family: "Rockwell","Times New Roman", serif;
+
+
+  }
+
+  #less{
+      text-align: justify;
+      font-size: 20;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: lighter;
+      margin-right: 46%;    
+  }
+
+
+.w3-col{
+    
+    float:left;
+    width:100%;
+}
+
+.w3-col.m6{width:50%}
+
+#homep{
+    font-family: "Raleway","Rockwell","Times New Roman", serif;
+    font-weight: lighter;   
+    text-align: justify;
+}
